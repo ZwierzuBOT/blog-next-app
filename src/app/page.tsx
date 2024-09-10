@@ -1,9 +1,9 @@
 
 
-export default function Home() {
+export default function Blogs() {
   return (
    <div>
-    Home page
+    Blogs
    </div>
   );
 }

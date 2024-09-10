@@ -6,6 +6,7 @@ const Header = () => {
         <div className="w-screen h-[13vh] flex justify-around items-center ">
                 <SignedIn>
                     <Link href="/blogs">Blogs</Link>
+                    <Link href="/create">Create</Link>
                     <UserButton/>
                 </SignedIn>
         </div>
