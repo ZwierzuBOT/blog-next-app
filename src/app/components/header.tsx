@@ -3,13 +3,13 @@ import { SignedIn, UserButton } from "@clerk/nextjs";
 
 const Header = () => {
     return ( 
-        <div className="w-screen h-[13vh] flex justify-around items-center ">
-                <SignedIn>
-                    <Link href="/blogs">Blogs</Link>
-                    <Link href="/create">Create</Link>
+        <SignedIn>
+            <div className="w-[80%] h-[13vh] flex justify-around items-center bg-[#494854] rounded-b-xl">   
+                    <Link href="/blogs" className="text-3xl">Blogs</Link>
+                    <Link href="/create" className="text-3xl">Create</Link>
                     <UserButton/>
-                </SignedIn>
-        </div>
+            </div>
+        </SignedIn>
      );
 }
  
